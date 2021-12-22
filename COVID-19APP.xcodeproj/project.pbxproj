@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D70DD051276CB41400AEB6F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70DD050276CB41400AEB6F9 /* AppDelegate.swift */; };
+		D70DD053276CB41400AEB6F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70DD052276CB41400AEB6F9 /* SceneDelegate.swift */; };
+		D70DD055276CB41400AEB6F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70DD054276CB41400AEB6F9 /* ViewController.swift */; };
+		D70DD058276CB41400AEB6F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70DD056276CB41400AEB6F9 /* Main.storyboard */; };
+		D70DD05A276CB41700AEB6F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70DD059276CB41700AEB6F9 /* Assets.xcassets */; };
+		D70DD05D276CB41700AEB6F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70DD05B276CB41700AEB6F9 /* LaunchScreen.storyboard */; };
+		D70DD068276CB41700AEB6F9 /* COVID_19APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70DD067276CB41700AEB6F9 /* COVID_19APPTests.swift */; };
+		D70DD073276CB41800AEB6F9 /* COVID_19APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70DD072276CB41800AEB6F9 /* COVID_19APPUITests.swift */; };
+		D70DD081276CB5B900AEB6F9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70DD080276CB5B900AEB6F9 /* Model.swift */; };
+		D70DD083276CC0A200AEB6F9 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70DD082276CC0A200AEB6F9 /* LogManager.swift */; };
+		D7184EBF277223EB00A78B07 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7184EBE277223EB00A78B07 /* Alert.swift */; };
+		D7E2D953276DB9300073733B /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2D952276DB9300073733B /* CustomView.swift */; };
+		D7E2D955276DB94D0073733B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2D954276DB94D0073733B /* CustomButton.swift */; };
+		D7E2D957276DDB7D0073733B /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7E2D956276DDB7D0073733B /* ResultViewController.xib */; };
+		D7E2D959276DDBA80073733B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2D958276DDBA80073733B /* ResultViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D70DD064276CB41700AEB6F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D70DD045276CB41400AEB6F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D70DD04C276CB41400AEB6F9;
+			remoteInfo = "COVID-19APP";
+		};
+		D70DD06F276CB41700AEB6F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D70DD045276CB41400AEB6F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D70DD04C276CB41400AEB6F9;
+			remoteInfo = "COVID-19APP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D70DD04D276CB41400AEB6F9 /* COVID-19APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID-19APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70DD050276CB41400AEB6F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D70DD052276CB41400AEB6F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D70DD054276CB41400AEB6F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D70DD057276CB41400AEB6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D70DD059276CB41700AEB6F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D70DD05C276CB41700AEB6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D70DD05E276CB41700AEB6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70DD063276CB41700AEB6F9 /* COVID-19APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COVID-19APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70DD067276CB41700AEB6F9 /* COVID_19APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVID_19APPTests.swift; sourceTree = "<group>"; };
+		D70DD069276CB41700AEB6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70DD06E276CB41700AEB6F9 /* COVID-19APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COVID-19APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70DD072276CB41800AEB6F9 /* COVID_19APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVID_19APPUITests.swift; sourceTree = "<group>"; };
+		D70DD074276CB41800AEB6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70DD080276CB5B900AEB6F9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D70DD082276CC0A200AEB6F9 /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		D7184EBE277223EB00A78B07 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		D7E2D952276DB9300073733B /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		D7E2D954276DB94D0073733B /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		D7E2D956276DDB7D0073733B /* ResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
+		D7E2D958276DDBA80073733B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D70DD04A276CB41400AEB6F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70DD060276CB41700AEB6F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70DD06B276CB41700AEB6F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D70DD044276CB41400AEB6F9 = {
+			isa = PBXGroup;
+			children = (
+				D70DD04F276CB41400AEB6F9 /* COVID-19APP */,
+				D70DD066276CB41700AEB6F9 /* COVID-19APPTests */,
+				D70DD071276CB41700AEB6F9 /* COVID-19APPUITests */,
+				D70DD04E276CB41400AEB6F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D70DD04E276CB41400AEB6F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D70DD04D276CB41400AEB6F9 /* COVID-19APP.app */,
+				D70DD063276CB41700AEB6F9 /* COVID-19APPTests.xctest */,
+				D70DD06E276CB41700AEB6F9 /* COVID-19APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D70DD04F276CB41400AEB6F9 /* COVID-19APP */ = {
+			isa = PBXGroup;
+			children = (
+				D70DD050276CB41400AEB6F9 /* AppDelegate.swift */,
+				D70DD052276CB41400AEB6F9 /* SceneDelegate.swift */,
+				D70DD054276CB41400AEB6F9 /* ViewController.swift */,
+				D70DD056276CB41400AEB6F9 /* Main.storyboard */,
+				D7E2D956276DDB7D0073733B /* ResultViewController.xib */,
+				D70DD059276CB41700AEB6F9 /* Assets.xcassets */,
+				D70DD05B276CB41700AEB6F9 /* LaunchScreen.storyboard */,
+				D70DD05E276CB41700AEB6F9 /* Info.plist */,
+				D70DD080276CB5B900AEB6F9 /* Model.swift */,
+				D70DD082276CC0A200AEB6F9 /* LogManager.swift */,
+				D7E2D952276DB9300073733B /* CustomView.swift */,
+				D7E2D954276DB94D0073733B /* CustomButton.swift */,
+				D7E2D958276DDBA80073733B /* ResultViewController.swift */,
+				D7184EBE277223EB00A78B07 /* Alert.swift */,
+			);
+			path = "COVID-19APP";
+			sourceTree = "<group>";
+		};
+		D70DD066276CB41700AEB6F9 /* COVID-19APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				D70DD067276CB41700AEB6F9 /* COVID_19APPTests.swift */,
+				D70DD069276CB41700AEB6F9 /* Info.plist */,
+			);
+			path = "COVID-19APPTests";
+			sourceTree = "<group>";
+		};
+		D70DD071276CB41700AEB6F9 /* COVID-19APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D70DD072276CB41800AEB6F9 /* COVID_19APPUITests.swift */,
+				D70DD074276CB41800AEB6F9 /* Info.plist */,
+			);
+			path = "COVID-19APPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D70DD04C276CB41400AEB6F9 /* COVID-19APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70DD077276CB41800AEB6F9 /* Build configuration list for PBXNativeTarget "COVID-19APP" */;
+			buildPhases = (
+				D70DD049276CB41400AEB6F9 /* Sources */,
+				D70DD04A276CB41400AEB6F9 /* Frameworks */,
+				D70DD04B276CB41400AEB6F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "COVID-19APP";
+			productName = "COVID-19APP";
+			productReference = D70DD04D276CB41400AEB6F9 /* COVID-19APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D70DD062276CB41700AEB6F9 /* COVID-19APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70DD07A276CB41800AEB6F9 /* Build configuration list for PBXNativeTarget "COVID-19APPTests" */;
+			buildPhases = (
+				D70DD05F276CB41700AEB6F9 /* Sources */,
+				D70DD060276CB41700AEB6F9 /* Frameworks */,
+				D70DD061276CB41700AEB6F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D70DD065276CB41700AEB6F9 /* PBXTargetDependency */,
+			);
+			name = "COVID-19APPTests";
+			productName = "COVID-19APPTests";
+			productReference = D70DD063276CB41700AEB6F9 /* COVID-19APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D70DD06D276CB41700AEB6F9 /* COVID-19APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70DD07D276CB41800AEB6F9 /* Build configuration list for PBXNativeTarget "COVID-19APPUITests" */;
+			buildPhases = (
+				D70DD06A276CB41700AEB6F9 /* Sources */,
+				D70DD06B276CB41700AEB6F9 /* Frameworks */,
+				D70DD06C276CB41700AEB6F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D70DD070276CB41700AEB6F9 /* PBXTargetDependency */,
+			);
+			name = "COVID-19APPUITests";
+			productName = "COVID-19APPUITests";
+			productReference = D70DD06E276CB41700AEB6F9 /* COVID-19APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D70DD045276CB41400AEB6F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D70DD04C276CB41400AEB6F9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D70DD062276CB41700AEB6F9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D70DD04C276CB41400AEB6F9;
+					};
+					D70DD06D276CB41700AEB6F9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D70DD04C276CB41400AEB6F9;
+					};
+				};
+			};
+			buildConfigurationList = D70DD048276CB41400AEB6F9 /* Build configuration list for PBXProject "COVID-19APP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D70DD044276CB41400AEB6F9;
+			productRefGroup = D70DD04E276CB41400AEB6F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D70DD04C276CB41400AEB6F9 /* COVID-19APP */,
+				D70DD062276CB41700AEB6F9 /* COVID-19APPTests */,
+				D70DD06D276CB41700AEB6F9 /* COVID-19APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D70DD04B276CB41400AEB6F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70DD05D276CB41700AEB6F9 /* LaunchScreen.storyboard in Resources */,
+				D70DD05A276CB41700AEB6F9 /* Assets.xcassets in Resources */,
+				D70DD058276CB41400AEB6F9 /* Main.storyboard in Resources */,
+				D7E2D957276DDB7D0073733B /* ResultViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70DD061276CB41700AEB6F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70DD06C276CB41700AEB6F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D70DD049276CB41400AEB6F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7184EBF277223EB00A78B07 /* Alert.swift in Sources */,
+				D70DD055276CB41400AEB6F9 /* ViewController.swift in Sources */,
+				D70DD083276CC0A200AEB6F9 /* LogManager.swift in Sources */,
+				D70DD051276CB41400AEB6F9 /* AppDelegate.swift in Sources */,
+				D7E2D959276DDBA80073733B /* ResultViewController.swift in Sources */,
+				D7E2D953276DB9300073733B /* CustomView.swift in Sources */,
+				D7E2D955276DB94D0073733B /* CustomButton.swift in Sources */,
+				D70DD053276CB41400AEB6F9 /* SceneDelegate.swift in Sources */,
+				D70DD081276CB5B900AEB6F9 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70DD05F276CB41700AEB6F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70DD068276CB41700AEB6F9 /* COVID_19APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70DD06A276CB41700AEB6F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70DD073276CB41800AEB6F9 /* COVID_19APPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D70DD065276CB41700AEB6F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D70DD04C276CB41400AEB6F9 /* COVID-19APP */;
+			targetProxy = D70DD064276CB41700AEB6F9 /* PBXContainerItemProxy */;
+		};
+		D70DD070276CB41700AEB6F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D70DD04C276CB41400AEB6F9 /* COVID-19APP */;
+			targetProxy = D70DD06F276CB41700AEB6F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D70DD056276CB41400AEB6F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D70DD057276CB41400AEB6F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D70DD05B276CB41700AEB6F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D70DD05C276CB41700AEB6F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D70DD075276CB41800AEB6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D70DD076276CB41800AEB6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D70DD078276CB41800AEB6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6LL3HL525;
+				INFOPLIST_FILE = "COVID-19APP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "M.O.COVID-19APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D70DD079276CB41800AEB6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6LL3HL525;
+				INFOPLIST_FILE = "COVID-19APP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "M.O.COVID-19APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D70DD07B276CB41800AEB6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6LL3HL525;
+				INFOPLIST_FILE = "COVID-19APPTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "M.O.COVID-19APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COVID-19APP.app/COVID-19APP";
+			};
+			name = Debug;
+		};
+		D70DD07C276CB41800AEB6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6LL3HL525;
+				INFOPLIST_FILE = "COVID-19APPTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "M.O.COVID-19APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COVID-19APP.app/COVID-19APP";
+			};
+			name = Release;
+		};
+		D70DD07E276CB41800AEB6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6LL3HL525;
+				INFOPLIST_FILE = "COVID-19APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "M.O.COVID-19APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "COVID-19APP";
+			};
+			name = Debug;
+		};
+		D70DD07F276CB41800AEB6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6LL3HL525;
+				INFOPLIST_FILE = "COVID-19APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "M.O.COVID-19APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "COVID-19APP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D70DD048276CB41400AEB6F9 /* Build configuration list for PBXProject "COVID-19APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70DD075276CB41800AEB6F9 /* Debug */,
+				D70DD076276CB41800AEB6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D70DD077276CB41800AEB6F9 /* Build configuration list for PBXNativeTarget "COVID-19APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70DD078276CB41800AEB6F9 /* Debug */,
+				D70DD079276CB41800AEB6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D70DD07A276CB41800AEB6F9 /* Build configuration list for PBXNativeTarget "COVID-19APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70DD07B276CB41800AEB6F9 /* Debug */,
+				D70DD07C276CB41800AEB6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D70DD07D276CB41800AEB6F9 /* Build configuration list for PBXNativeTarget "COVID-19APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70DD07E276CB41800AEB6F9 /* Debug */,
+				D70DD07F276CB41800AEB6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D70DD045276CB41400AEB6F9 /* Project object */;
+}
